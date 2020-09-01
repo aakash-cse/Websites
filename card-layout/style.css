@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    margin: 20px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    background: #03D29F;
+    position: relative;
+    flex: 1;
+    max-width: 1450px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.chart {
+    background: #50A7FF;
+    position: relative;
+    flex: 1;
+    max-width: 870px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
+}
+.entry {
+    background: #50B7BB;
+    position: relative;
+    flex: 1;
+    max-width: 560px;
+    height: 600px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.summary {
+    background: #FF7675;
+    position: relative;
+    flex: 1;
+    max-width: 560px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.data-table {
+    background: #FF7675;
+    position: relative;
+    flex: 1;
+    max-width: 870px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background: #03D29F;
+    position: relative;
+    flex: 1;
+    max-width: 1450px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:800px) {
+    .card-01 {
+        flex: 100%;
+        max-width: 600px;
+    }
+
+    .card-02 {
+        flex: 100%;
+        max-width: 600px;
+    }
+
+    .card-03 {
+        flex: 100%;
+        max-width: 600px;
+    }
+}
